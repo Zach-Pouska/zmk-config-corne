@@ -12,8 +12,8 @@ layers:
   - I
   - O
   - P
-  - $$mdi:backspace-outline$$
-  - LEFT CONTROL
+  - {t: BACKSPACE, s: ⌦}
+  - {t: ESCAPE, h: LEFT CONTROL}
   - A
   - S
   - D
@@ -44,7 +44,7 @@ layers:
   - {t: M/N, h: toggle}
   - LEFT ALT
   LOW:
-  - ↹
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
@@ -55,8 +55,8 @@ layers:
   - '8'
   - '9'
   - '0'
-  - $$mdi:backspace-outline$$
-  - BT CLR
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - BT 1
   - BT 2
   - BT 3
@@ -68,16 +68,16 @@ layers:
   - →
   - PAGE UP
   - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT CLR
+  - '['
+  - ']'
   - {t: ▽, type: trans}
   - '&studio_unlock'
-  - {t: ▽, type: trans}
   - Home
   - End
-  - {t: ▽, type: trans}
+  - '-'
+  - '='
   - PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -173,9 +173,5 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [0, 1]
-  k: ESCAPE
 - p: [24, 35]
   k: CAPSLOCK
-- p: [24, 11]
-  k: ⌦

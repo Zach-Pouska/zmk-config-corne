@@ -17,19 +17,31 @@
     combos {
         compatible = "zmk,combos";
 
-        qtab_escape {
-            bindings = <&kp ESCAPE>;
-            key-positions = <0 1>;
-        };
-
         caps {
             bindings = <&kp CAPSLOCK>;
             key-positions = <24 35>;
         };
+    };
 
-        del {
-            bindings = <&kp DEL>;
-            key-positions = <24 11>;
+    behaviors {
+        tap_escape_hold_ctrl: tap_escape_hold_ctrl {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TAP_ESCAPE_HOLD_CTRL";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <70>;
+            hold-while-undecided;
+        };
+
+        bkspcShiftDelForward: bkspcShiftDelForward {
+            compatible = "zmk,behavior-mod-morph";
+            label = "BKSPCSHIFTDELFORWARD";
+            bindings = <&kp BACKSPACE>, <&kp DEL>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+            keep-mods = <(MOD_LSFT)>;
         };
     };
 
@@ -46,10 +58,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB           &kp Q  &kp W  &kp E         &kp R  &kp T        &kp Y    &kp U   &kp I         &kp O    &kp P     &kp BSPC
-&kp LEFT_CONTROL  &kp A  &kp S  &kp D         &kp F  &kp G        &kp H    &kp J   &kp K         &kp L    &kp SEMI  &kp SQT
-&kp LSHFT         &kp Z  &kp X  &kp C         &kp V  &kp B        &kp N    &kp M   &kp COMMA     &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                                &kp LEFT_WIN  &mo 1  &kp SPACE    &kp RET  &tog 2  &kp LEFT_ALT
+&kp TAB                                    &kp Q  &kp W  &kp E         &kp R  &kp T        &kp Y    &kp U   &kp I         &kp O    &kp P     &bkspcShiftDelForward
+&tap_escape_hold_ctrl LEFT_CONTROL ESCAPE  &kp A  &kp S  &kp D         &kp F  &kp G        &kp H    &kp J   &kp K         &kp L    &kp SEMI  &kp SQT
+&kp LSHFT                                  &kp Z  &kp X  &kp C         &kp V  &kp B        &kp N    &kp M   &kp COMMA     &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+                                                         &kp LEFT_WIN  &mo 1  &kp SPACE    &kp RET  &tog 2  &kp LEFT_ALT
             >;
         };
 
@@ -63,10 +75,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5            &kp N6    &kp N7    &kp N8   &kp N9     &kp N0         &kp BSPC
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &kp LEFT  &kp DOWN  &kp UP   &kp RIGHT  &kp PAGE_UP    &trans
-&kp LSHFT   &trans        &trans        &trans        &trans        &studio_unlock    &trans    &kp HOME  &kp END  &trans     &kp PAGE_DOWN  &trans
-                                        &trans        &trans        &kp SPACE         &kp RET   &tog 2    &trans
+&trans  &kp N1        &kp N2            &kp N3             &kp N4        &kp N5            &kp N6    &kp N7    &kp N8     &kp N9     &kp N0         &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1      &bt BT_SEL 2       &bt BT_SEL 3  &bt BT_SEL 4      &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT  &kp PAGE_UP    &trans
+&trans  &bt BT_CLR    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans        &studio_unlock    &kp HOME  &kp END   &kp MINUS  &kp EQUAL  &kp PAGE_DOWN  &trans
+                                        &trans             &trans        &kp SPACE         &kp RET   &tog 2    &trans
             >;
         };
 
