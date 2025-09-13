@@ -41,7 +41,7 @@ layers:
   - LOW
   - ␣
   - ⏎
-  - {t: RAI, h: toggle}
+  - RAI
   - LEFT ALT
   LOW:
   - Alt+↹
@@ -127,7 +127,7 @@ layers:
   - {t: ▽, type: trans}
   - PLAY PAUSE
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   M/N:
   - {t: ▽, type: trans}
