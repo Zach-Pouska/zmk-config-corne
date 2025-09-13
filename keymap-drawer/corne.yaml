@@ -43,8 +43,8 @@ layers:
   - {type: held}
   - ␣
   - ⏎
+  - RAI
   - {t: ▽, type: trans}
-  - {t: RAI, h: toggle}
   M/N:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -126,10 +126,10 @@ layers:
   - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
 combos:
 - p: [0, 1]
