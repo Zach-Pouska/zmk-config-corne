@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
-  BAS: [↹, Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', Esc, A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-shift$$', Z, X, C, V, B, N, M,
-    ',', ., /, RIGHT SHIFT, '$$mdi:apple-keyboard-command$$', LOW, ␣, ⏎, M/N, RIGHT CONTROL]
+  BAS: [↹, Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', LEFT CONTROL, A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-shift$$', Z, X, C, V,
+    B, N, M, ',', ., /, RIGHT SHIFT, '$$mdi:apple-keyboard-command$$', LOW, ␣, ⏎, M/N, LEFT ALT]
   LOW:
   - ↹
   - '1'
@@ -39,12 +39,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PAGE DOWN
-  - $$mdi:apple-keyboard-command$$
+  - {t: ▽, type: trans}
   - {type: held}
   - ␣
   - ⏎
   - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-option$$
+  - {t: ▽, type: trans}
   RAI:
   - ↹
   - '!'
@@ -131,3 +131,8 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
+combos:
+- p: [0, 1]
+  k: ESCAPE
+- p: [24, 35]
+  k: CAPSLOCK
