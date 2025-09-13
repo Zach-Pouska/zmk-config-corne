@@ -1,17 +1,12 @@
-# MC Technology's zmk-config for corne - sofle - lily58
-
-[![MC Technology](https://github.com/mctechnology17/mctechnology17/blob/main/src/mctechnology_extendido.GIF)](https://www.youtube.com/channel/UC_mYh5PYPHBJ5YYUj8AIkcw)
-
-<div align="center">
-
-  [<img align="center" alt="MC Technology | YouTube" width="22px" src="https://github.com/mctechnology17/mctechnology17/blob/main/src/youtube.png" />][youtube]
-  [<img align="center" alt="MC Technology17 | Facebook" width="22px" src="https://github.com/mctechnology17/mctechnology17/blob/main/src/facebook.png" />][facebook]
-  [<img align="center" alt="MC Technology17 | Reddit" width="22px" src="https://github.com/mctechnology17/mctechnology17/blob/main/src/reddit.png" />][reddit]
-
-</div>
-<br>
+# Zach's wireless corne configuration, based on:  MC Technology's zmk-config for corne - sofle - lily58
 
 
+
+
+
+
+
+# original documentation:
 - [INTRO](#INTRO)
 - [QUICK START](#QUICK-START)
   - [keymap corne](#keymap-corne)
