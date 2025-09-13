@@ -418,6 +418,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="406" y="148" width="28" height="26" class="combo"/>
 <text x="420" y="161" class="combo tap"><tspan style="font-size: 75%">CAPSLOCK</tspan></text>
 </g>
+<g class="combo combopos-2">
+<path d="M420,105 l-374,53" class="combo"/>
+<path d="M420,105 l374,-53" class="combo"/>
+<rect rx="6" ry="6" x="406" y="92" width="28" height="26" class="combo"/>
+<text x="420" y="105" class="combo tap">⌦</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 331)" class="layer-LOW">
@@ -616,6 +622,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="406" y="148" width="28" height="26" class="combo"/>
 <text x="420" y="161" class="combo tap"><tspan style="font-size: 75%">CAPSLOCK</tspan></text>
 </g>
+<g class="combo combopos-2">
+<path d="M420,105 l-374,53" class="combo"/>
+<path d="M420,105 l374,-53" class="combo"/>
+<rect rx="6" ry="6" x="406" y="92" width="28" height="26" class="combo"/>
+<text x="420" y="105" class="combo tap">⌦</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 661)" class="layer-RAI">
@@ -802,6 +814,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="406" y="148" width="28" height="26" class="combo"/>
 <text x="420" y="161" class="combo tap"><tspan style="font-size: 75%">CAPSLOCK</tspan></text>
 </g>
+<g class="combo combopos-2">
+<path d="M420,105 l-374,53" class="combo"/>
+<path d="M420,105 l374,-53" class="combo"/>
+<rect rx="6" ry="6" x="406" y="92" width="28" height="26" class="combo"/>
+<text x="420" y="105" class="combo tap">⌦</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 992)" class="layer-M/N">
@@ -983,6 +1001,12 @@ rect.held, rect.combo.held {
 <path d="M420,161 l373,0" class="combo"/>
 <rect rx="6" ry="6" x="406" y="148" width="28" height="26" class="combo"/>
 <text x="420" y="161" class="combo tap"><tspan style="font-size: 75%">CAPSLOCK</tspan></text>
+</g>
+<g class="combo combopos-2">
+<path d="M420,105 l-374,53" class="combo"/>
+<path d="M420,105 l374,-53" class="combo"/>
+<rect rx="6" ry="6" x="406" y="92" width="28" height="26" class="combo"/>
+<text x="420" y="105" class="combo tap">⌦</text>
 </g>
 </g>
 </g>

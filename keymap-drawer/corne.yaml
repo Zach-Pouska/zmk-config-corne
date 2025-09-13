@@ -136,3 +136,5 @@ combos:
   k: ESCAPE
 - p: [24, 35]
   k: CAPSLOCK
+- p: [24, 11]
+  k: ⌦
