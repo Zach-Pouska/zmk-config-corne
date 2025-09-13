@@ -124,7 +124,7 @@ layers:
   - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: NFN, h: toggle}
   - PLAY PAUSE
   - {t: ▽, type: trans}
   - {type: held}
