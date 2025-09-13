@@ -9,15 +9,6 @@
 # shield: corne_left nice_view_adapter nice_view,
 #         corne_right nice_view_adapter nice_view,
 #         corne_left, corne_right and settings_reset
-# =========================================
-#                              ╔═╦═╦═╗
-#                       ╔════╗ ║║║║║╔╝
-#                       ║╔╗╔╗║ ║║║║║╚╗
-#                       ╚╝║║╚╝ ║╠═╩╩═╝
-#                         ║╠═╦═╣╚╦═╦╦═╦╗╔═╦═╦╦╗
-#                         ║║╩╣═╣║║║║║╬║╚╣╬║╬║║║
-#                         ╚╩═╩═╩╩╩╩═╩═╩═╩═╬╗╠╗║
-#                                         ╚═╩═╝
 # This file generates the GitHub Actions matrix
 # For simple board + shield combinations, add them
 # to the top level board and shield arrays, for more
