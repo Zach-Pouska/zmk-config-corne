@@ -1,7 +1,48 @@
 layout: {zmk_keyboard: corne}
 layers:
-  BAS: [↹, Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', LEFT CONTROL, A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-shift$$', Z, X, C, V,
-    B, N, M, ',', ., /, RIGHT SHIFT, LEFT WIN, LOW, ␣, ⏎, M/N, LEFT ALT]
+  BAS:
+  - ↹
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - $$mdi:backspace-outline$$
+  - LEFT CONTROL
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RIGHT SHIFT
+  - LEFT WIN
+  - LOW
+  - ␣
+  - ⏎
+  - {t: M/N, h: toggle}
+  - LEFT ALT
   LOW:
   - ↹
   - '1'
@@ -43,7 +84,7 @@ layers:
   - {type: held}
   - ␣
   - ⏎
-  - RAI
+  - {t: M/N, h: toggle}
   - {t: ▽, type: trans}
   M/N:
   - {t: ▽, type: trans}
@@ -86,7 +127,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   RAI:
   - {t: ▽, type: trans}
@@ -129,7 +170,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
 - p: [0, 1]
