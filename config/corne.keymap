@@ -54,7 +54,7 @@
             #binding-cells = <0>;
             bindings = <&tog 3>, <&tog 4>;
 
-            tapping-term-ms = <80>;
+            tapping-term-ms = <120>;
         };
     };
 
