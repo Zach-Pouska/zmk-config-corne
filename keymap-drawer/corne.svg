@@ -411,6 +411,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="406" y="148" width="28" height="26" class="combo"/>
 <text x="420" y="161" class="combo tap"><tspan style="font-size: 75%">CAPSLOCK</tspan></text>
 </g>
+<g class="combo combopos-1">
+<path d="M420,213 l-116,0" class="combo"/>
+<path d="M420,213 l116,0" class="combo"/>
+<rect rx="6" ry="6" x="406" y="200" width="28" height="26" class="combo"/>
+<a href="#GA1">
+<text x="420" y="213" class="combo tap layer-activator">GA1</text>
+</a><text x="420" y="224" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 331)" class="layer-LOW">
@@ -534,13 +542,13 @@ rect.held, rect.combo.held {
 <tspan x="0" dy="-0.6em">BT</tspan><tspan x="0" dy="1.2em">CLR</tspan>
 </text>
 </g>
-<g transform="translate(140, 147)" class="key keypos-26">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">[</text>
+<g transform="translate(140, 147)" class="key trans keypos-26">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(196, 140)" class="key keypos-27">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">]</text>
+<g transform="translate(196, 140)" class="key trans keypos-27">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(252, 147)" class="key trans keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -552,19 +560,19 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(532, 154)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Home</text>
+<text x="0" y="0" class="key tap">-</text>
 </g>
 <g transform="translate(588, 147)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">End</text>
+<text x="0" y="0" class="key tap">=</text>
 </g>
 <g transform="translate(644, 140)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">-</text>
+<text x="0" y="0" class="key tap">Home</text>
 </g>
 <g transform="translate(700, 147)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">=</text>
+<text x="0" y="0" class="key tap">End</text>
 </g>
 <g transform="translate(756, 161)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -604,6 +612,14 @@ rect.held, rect.combo.held {
 <path d="M420,161 l373,0" class="combo"/>
 <rect rx="6" ry="6" x="406" y="148" width="28" height="26" class="combo"/>
 <text x="420" y="161" class="combo tap"><tspan style="font-size: 75%">CAPSLOCK</tspan></text>
+</g>
+<g class="combo combopos-1">
+<path d="M420,213 l-116,0" class="combo"/>
+<path d="M420,213 l116,0" class="combo"/>
+<rect rx="6" ry="6" x="406" y="200" width="28" height="26" class="combo"/>
+<a href="#GA1">
+<text x="420" y="213" class="combo tap layer-activator">GA1</text>
+</a><text x="420" y="224" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -794,6 +810,14 @@ rect.held, rect.combo.held {
 <path d="M420,161 l373,0" class="combo"/>
 <rect rx="6" ry="6" x="406" y="148" width="28" height="26" class="combo"/>
 <text x="420" y="161" class="combo tap"><tspan style="font-size: 75%">CAPSLOCK</tspan></text>
+</g>
+<g class="combo combopos-1">
+<path d="M420,213 l-116,0" class="combo"/>
+<path d="M420,213 l116,0" class="combo"/>
+<rect rx="6" ry="6" x="406" y="200" width="28" height="26" class="combo"/>
+<a href="#GA1">
+<text x="420" y="213" class="combo tap layer-activator">GA1</text>
+</a><text x="420" y="224" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1000,6 +1024,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="406" y="148" width="28" height="26" class="combo"/>
 <text x="420" y="161" class="combo tap"><tspan style="font-size: 75%">CAPSLOCK</tspan></text>
 </g>
+<g class="combo combopos-1">
+<path d="M420,213 l-116,0" class="combo"/>
+<path d="M420,213 l116,0" class="combo"/>
+<rect rx="6" ry="6" x="406" y="200" width="28" height="26" class="combo"/>
+<a href="#GA1">
+<text x="420" y="213" class="combo tap layer-activator">GA1</text>
+</a><text x="420" y="224" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1323)" class="layer-NFN">
@@ -1178,6 +1210,14 @@ rect.held, rect.combo.held {
 <path d="M420,161 l373,0" class="combo"/>
 <rect rx="6" ry="6" x="406" y="148" width="28" height="26" class="combo"/>
 <text x="420" y="161" class="combo tap"><tspan style="font-size: 75%">CAPSLOCK</tspan></text>
+</g>
+<g class="combo combopos-1">
+<path d="M420,213 l-116,0" class="combo"/>
+<path d="M420,213 l116,0" class="combo"/>
+<rect rx="6" ry="6" x="406" y="200" width="28" height="26" class="combo"/>
+<a href="#GA1">
+<text x="420" y="213" class="combo tap layer-activator">GA1</text>
+</a><text x="420" y="224" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1358,6 +1398,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="406" y="148" width="28" height="26" class="combo"/>
 <text x="420" y="161" class="combo tap"><tspan style="font-size: 75%">CAPSLOCK</tspan></text>
 </g>
+<g class="combo combopos-1">
+<path d="M420,213 l-116,0" class="combo"/>
+<path d="M420,213 l116,0" class="combo"/>
+<rect rx="6" ry="6" x="406" y="200" width="28" height="26" class="combo"/>
+<a href="#GA1">
+<text x="420" y="213" class="combo tap layer-activator">GA1</text>
+</a><text x="420" y="224" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1984)" class="layer-GA2">
@@ -1536,6 +1584,14 @@ rect.held, rect.combo.held {
 <path d="M420,161 l373,0" class="combo"/>
 <rect rx="6" ry="6" x="406" y="148" width="28" height="26" class="combo"/>
 <text x="420" y="161" class="combo tap"><tspan style="font-size: 75%">CAPSLOCK</tspan></text>
+</g>
+<g class="combo combopos-1">
+<path d="M420,213 l-116,0" class="combo"/>
+<path d="M420,213 l116,0" class="combo"/>
+<rect rx="6" ry="6" x="406" y="200" width="28" height="26" class="combo"/>
+<a href="#GA1">
+<text x="420" y="213" class="combo tap layer-activator">GA1</text>
+</a><text x="420" y="224" class="combo hold">toggle</text>
 </g>
 </g>
 </g>

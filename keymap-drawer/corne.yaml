@@ -70,14 +70,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR
-  - '['
-  - ']'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&studio_unlock'
-  - Home
-  - End
   - '-'
   - '='
+  - Home
+  - End
   - PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -304,3 +304,5 @@ layers:
 combos:
 - p: [24, 35]
   k: CAPSLOCK
+- p: [37, 40]
+  k: {t: GA1, h: toggle}
