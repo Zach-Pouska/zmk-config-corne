@@ -38,10 +38,10 @@ layers:
   - /
   - RIGHT SHIFT
   - LEFT ALT
-  - LOW
+  - {t: NFN, h: LOW}
   - ␣
   - ⏎
-  - RAI
+  - {t: M/N, h: RAI}
   - LEFT WIN
   LOW:
   - Alt+↹
@@ -304,5 +304,3 @@ layers:
 combos:
 - p: [24, 35]
   k: CAPSLOCK
-- p: [37, 40]
-  k: '&tap_layer_change'
