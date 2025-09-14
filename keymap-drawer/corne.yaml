@@ -84,7 +84,7 @@ layers:
   - {type: held}
   - ␣
   - ⏎
-  - {t: M/N, h: toggle}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   RAI:
   - {t: ▽, type: trans}
@@ -124,7 +124,7 @@ layers:
   - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: NFN, h: toggle}
+  - {t: ▽, type: trans}
   - PLAY PAUSE
   - {t: ▽, type: trans}
   - {type: held}
@@ -136,12 +136,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB4'
   - '&mkp LCLK'
   - '&mkp MCLK'
   - '&mkp RCLK'
-  - '&mkp MB4'
   - '&mkp MB5'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
