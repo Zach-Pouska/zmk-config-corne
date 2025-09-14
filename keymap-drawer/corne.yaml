@@ -37,12 +37,12 @@ layers:
   - .
   - /
   - RIGHT SHIFT
-  - LEFT WIN
+  - LEFT ALT
   - LOW
   - ␣
   - ⏎
   - RAI
-  - LEFT ALT
+  - LEFT WIN
   LOW:
   - Alt+↹
   - '1'
