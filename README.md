@@ -41,39 +41,6 @@ a modification to your keymap, you can do it with the online [keymap-editor](htt
 - If you already have a repository and you want only the dongle option of this repository with support for `zmk-studio`, just add this repository as a module to your configuration, look the section [THIS REPOSITORY AS A MODULE](#THIS-REPOSITORY-AS-A-MODULE).
 
 # INTRO
-
-> [!CAUTION]
->
-> I AM NOT RESPONSIBLE FOR ANY DAMAGE THIS CODE MAY CAUSE, USE IT AT YOUR OWN
-> RISK.
-
-> [!NOTE]
->
->
-> FEEL FREE TO MODIFY THE CODE TO YOUR LIKING OR USE WHATEVER YOU NEED. I
-> DECIDED TO REVOKE MANY CHANGES AND RETURN TO THE BASE MAPPING, SO THAT
-> ADVANCED AND NON-ADVANCED  USERS CAN USE THIS REPOSITORY AS A BASE FOR THEIR
-> CONFIGURATIONS. IF YOU HAVE ANY QUESTIONS, DON'T HESITATE TO ASK. IF YOU HAVE
-> ANY SUGGESTIONS, FEEL FREE TO SUGGEST.
-
-
-The objective of this repository is to serve as a base for configuring your
-corne - sofle - lily58 keyboard with the firmware [ZMK firmware] in a simple and fast way.
-without having to configure everything from scratch. Many of us are fascinated
-by customizing our keyboards, but sometimes we don't have the time or
-experience to do it. That is why I have decided to create this repository so
-that you can have a base configuration and you can modify it to your liking.
-
-This base includes the most recent corne - sofle - lily58 configurations, featuring a setup for
-the corne - sofle - lily58 dongle with/without an OLED screen.
-You can also use your keyboard WITH / WITHOUT a dongle of course. with any of the
-plates or screens you have.
-
-Tested with **[puchi_ble_v1]** (used as a dongle and as
-peripherals), **[nice_nano_v2]** (used as a dongle and as peripherals),
-**clones of nice_nano_v2** (used as a dongle and as peripherals), and the
-**[seeeduino_xiao_ble]** (used only as a dongle).
-
 | Main Pros                                                                                       |
 |-------------------------------------------------------------------------------------------------|
 | mobility and flexibility                                                                        |
@@ -102,7 +69,6 @@ peripherals), **[nice_nano_v2]** (used as a dongle and as peripherals),
 
 # QUICK START
 > [!NOTE]
->
 > 1. With this configuration you can use the corne - sofle - lily58 keyboard practically
 > immediately, you just have to follow the following steps and that's it.
 >
@@ -160,99 +126,8 @@ Here you can see the visual changes to the configuration:
 > The file for the workflows is in [workflows](./.github/workflows/keymap-drawer.yaml) in case you want to modify it.
 
 ## keymap corne
-[![keymap-drawer-demo-corne](keymap-drawer/corne.svg)](https://www.youtube.com/c/mctechnology17)
-## keymap sofle
-[![keymap-drawer-demo-sofle](keymap-drawer/sofle.svg)](https://www.youtube.com/c/mctechnology17)
-## keymap splitkb_aurora_sofle
-[![keymap-drawer-demo-splitkb_aurora_sofle](keymap-drawer/splitkb_aurora_sofle.svg)](https://www.youtube.com/c/mctechnology17)
-## keymap lily58
-[![keymap-drawer-demo-lily58](keymap-drawer/lily58.svg)](https://www.youtube.com/c/mctechnology17)
+[![keymap-drawer-demo-corne](keymap-drawer/corne.svg)]
 
-If you want to customize this image with shapes/colors/etc. You can see these references:
-[^1] [^2] [^3]
-
-
-# LOCAL INSTALLATION
-Before making any modifications, please see the [ZMK documentation]
-documentation.
-
-Example of an advanced configuration hier -> [^4]
-
-1. Clone _your fork_ of this repository.
-
-   ```bash
-   # Replace `mctechnology17` with your username
-   git clone https://github.com/mctechnology17/zmk-config.git
-   ```
-
-2. Enter the repository.
-
-   ```bash
-   cd zmk-config
-   ```
-
-Here you have a preview of how the repository is organized:
-
-```bash
-zmk-config # main folder
-├── LICENSE # license
-├── Makefile # file for compilation
-├── README.md # readme this file
-├── build.yaml # config file for compilation on the github server
-│   boards
-│   ├── ... # other boards
-│   ├── nice_nano_v2.overlay
-│   ├── puchi_ble_v1.overlay
-│   └── shields
-│       ├── corne
-│       │   ├── Kconfig.defconfig # modify if you want to add a new shield
-│       │   ├── Kconfig.shield # modify if you want to add a new shield
-│       │   ├── boards
-│       │   │   ├── ... # other boards
-│       │   ├── corne.conf # general configurations of the corne
-│       │   ├── corne.dtsi # default dtsi
-│       │   ├── corne.keymap # default keymap
-│       │   ├── corne.zmk.yml # modify if you want to add a new shield
-│       │   ├── corne_dongle_pro_micro.conf # conf dongle pro_micro pinout
-│       │   ├── corne_dongle_pro_micro.overlay # properties/displays dongle
-│       │   ├── corne_dongle_xiao.conf # conf dongle xiao pinout
-│       │   ├── corne_dongle_xiao.overlay # properties/displays dongle
-│       │   ├── corne_left.conf # conf left
-│       │   ├── corne_left_peripheral.conf # config left peripheral
-│       │   ├── corne_right.conf # conf right
-│       │   ├── ... # other files
-│       └── dongle_display
-│           ├── ... # here you can modify the screen widgets
-│           └── widgets
-│               └── # here you can modify the screen widgets
-│   config # configuration folder
-│   ├── config_keymap-drawer.yaml # config file keymap-drawer
-│   ├── corne.conf # general configurations of the corne
-│   ├── corne.keymap # your keymap file
-│   ├── keymap_german_mac_iso_zmk.h # example of definition for german mac iso
-│   └── west.yml # conf to connect with the repository
-├── firmware
-│   └── *.uf2 # all the firmwares
-├── keymap-drawer # folder with the keymap-drawer
-│   ├── corne.svg # img of the keymap
-│   └── corne.yaml # keymap file yaml format for keymap-drawer
-└── src
-    └── ... # other files
-```
-
-To compile with make, just run the following command:
-
-> [!IMPORTANT]
->
-> 1. You have to have [docker](https://www.docker.com/products/docker-desktop/)
->    installed on your computer to use this command.
-> 2. Check the [makefile](./makefile) file for build options.
-
-
-```bash
-make codebase_urob # clones urob's zmk firmware and initializes it
-make corne_urob # compile all the *.uf2 of the corne and copy them to the firmware folder
-```
 
 # DISPLAY
 1. ePAPER
