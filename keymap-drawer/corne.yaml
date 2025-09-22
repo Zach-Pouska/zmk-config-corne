@@ -38,10 +38,10 @@ layers:
   - /
   - RIGHT SHIFT
   - LEFT ALT
-  - {t: NFN, h: LOW}
+  - LOW
   - ␣
   - ⏎
-  - {t: M/N, h: RAI}
+  - RAI
   - LEFT WIN
   LOW:
   - {t: ▽, type: trans}
@@ -253,12 +253,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: NFN, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: M/N, h: toggle}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  GA2:
+  GAME:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

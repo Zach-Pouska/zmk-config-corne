@@ -22,8 +22,8 @@
             key-positions = <24 35>;
         };
 
-        gaming1toggle {
-            bindings = <&tog 5>;
+        goto-alt-layer {
+            bindings = <&to 5>;
             key-positions = <37 40>;
         };
 
@@ -112,10 +112,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB                                    &kp Q  &kp W  &kp E         &kp R                &kp T        &kp Y    &kp U                &kp I         &kp O    &kp P     &kp BACKSPACE
-&tap_escape_hold_ctrl LEFT_CONTROL ESCAPE  &kp A  &kp S  &kp D         &kp F                &kp G        &kp H    &kp J                &kp K         &kp L    &kp SEMI  &kp SQT
-&kp LSHFT                                  &kp Z  &kp X  &kp C         &kp V                &kp B        &kp N    &kp M                &kp COMMA     &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                                                         &kp LEFT_ALT  &layer_hold_tap 1 4  &kp SPACE    &kp RET  &layer_hold_tap 2 3  &kp LEFT_WIN
+&kp TAB                                    &kp Q  &kp W  &kp E         &kp R  &kp T        &kp Y    &kp U  &kp I         &kp O    &kp P     &kp BACKSPACE
+&tap_escape_hold_ctrl LEFT_CONTROL ESCAPE  &kp A  &kp S  &kp D         &kp F  &kp G        &kp H    &kp J  &kp K         &kp L    &kp SEMI  &kp SQT
+&kp LSHFT                                  &kp Z  &kp X  &kp C         &kp V  &kp B        &kp N    &kp M  &kp COMMA     &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+                                                         &kp LEFT_ALT  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp LEFT_WIN
             >;
         };
 
@@ -180,13 +180,13 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+                        &trans  &to 4   &trans    &trans  &to 3   &trans
             >;
 
             label = "AHUB";
         };
 
-        gaming2 {
+        gaming {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
@@ -194,7 +194,7 @@
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
 
-            label = "GA2";
+            label = "GAME";
         };
     };
 
