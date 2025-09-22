@@ -26,6 +26,11 @@
             bindings = <&tog 5>;
             key-positions = <37 40>;
         };
+
+        del {
+            bindings = <&kp DELETE>;
+            key-positions = <11 10>;
+        };
     };
 
     behaviors {
@@ -82,7 +87,7 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB                                    &kp Q  &kp W  &kp E         &kp R                &kp T        &kp Y    &kp U                &kp I         &kp O    &kp P     &bkspcShiftDelForward
+&kp TAB                                    &kp Q  &kp W  &kp E         &kp R                &kp T        &kp Y    &kp U                &kp I         &kp O    &kp P     &kp BACKSPACE
 &tap_escape_hold_ctrl LEFT_CONTROL ESCAPE  &kp A  &kp S  &kp D         &kp F                &kp G        &kp H    &kp J                &kp K         &kp L    &kp SEMI  &kp SQT
 &kp LSHFT                                  &kp Z  &kp X  &kp C         &kp V                &kp B        &kp N    &kp M                &kp COMMA     &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
                                                          &kp LEFT_ALT  &layer_hold_tap 1 4  &kp SPACE    &kp RET  &layer_hold_tap 2 3  &kp LEFT_WIN
@@ -99,10 +104,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp LA(TAB)  &kp N1        &kp N2        &kp N3        &kp N4        &kp N5            &kp N6     &kp N7     &kp N8    &kp N9     &kp N0         &trans
-&trans       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT  &kp PAGE_UP    &trans
-&trans       &bt BT_CLR    &trans        &trans        &trans        &studio_unlock    &kp MINUS  &kp EQUAL  &kp HOME  &kp END    &kp PAGE_DOWN  &trans
-                                         &trans        &trans        &kp SPACE         &kp RET    &trans     &trans
+&trans  &kp N1        &kp N2        &kp N3        &kp N4        &kp N5            &kp N6     &kp N7     &kp N8            &kp N9             &kp N0         &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &kp LEFT   &kp DOWN   &kp UP            &kp RIGHT          &kp BACKSLASH  &trans
+&trans  &bt BT_CLR    &trans        &trans        &trans        &studio_unlock    &kp MINUS  &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE       &trans
+                                    &trans        &trans        &kp SPACE         &kp RET    &trans     &trans
             >;
         };
 
@@ -136,10 +141,10 @@
 
         NUMPAD+FN {
             bindings = <
-&trans  &trans  &kp F7  &kp F8  &kp F9  &kp F12    &trans  &kp N7  &kp N8  &kp N9  &trans  &trans
-&trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11    &kp N0  &kp N4  &kp N5  &kp N6  &trans  &trans
-&trans  &trans  &kp F1  &kp F2  &kp F3  &kp F10    &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
-                        &trans  &trans  &trans     &trans  &trans  &trans
+&trans  &kp F15  &kp F7  &kp F8  &kp F9  &kp F12    &kp KP_PLUS  &kp N7  &kp N8  &kp N9  &trans    &trans
+&trans  &kp F14  &kp F4  &kp F5  &kp F6  &kp F11    &kp N0       &kp N4  &kp N5  &kp N6  &kp STAR  &trans
+&trans  &kp F13  &kp F1  &kp F2  &kp F3  &kp F10    &kp MINUS    &kp N1  &kp N2  &kp N3  &trans    &trans
+                         &trans  &trans  &trans     &trans       &trans  &trans
             >;
 
             label = "NFN";

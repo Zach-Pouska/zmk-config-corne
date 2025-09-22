@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - {t: BACKSPACE, s: ⌦}
+  - BACKSPACE
   - {t: ESCAPE, h: LEFT CONTROL}
   - A
   - S
@@ -44,7 +44,7 @@ layers:
   - {t: M/N, h: RAI}
   - LEFT WIN
   LOW:
-  - Alt+↹
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
@@ -66,7 +66,7 @@ layers:
   - ↓
   - ↑
   - →
-  - PAGE UP
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR
@@ -76,9 +76,9 @@ layers:
   - '&studio_unlock'
   - '-'
   - '='
-  - Home
-  - End
-  - PAGE DOWN
+  - '['
+  - ']'
+  - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -174,19 +174,19 @@ layers:
   - {t: ▽, type: trans}
   NFN:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F15
   - F7
   - F8
   - F9
   - F12
-  - {t: ▽, type: trans}
+  - KP PLUS
   - '7'
   - '8'
   - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F14
   - F4
   - F5
   - F6
@@ -195,15 +195,15 @@ layers:
   - '4'
   - '5'
   - '6'
+  - '*'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F13
   - F1
   - F2
   - F3
   - F10
-  - {t: ▽, type: trans}
+  - '-'
   - '1'
   - '2'
   - '3'
@@ -306,3 +306,5 @@ combos:
   k: CAPSLOCK
 - p: [37, 40]
   k: {t: GA1, h: toggle}
+- p: [11, 10]
+  k: DELETE
