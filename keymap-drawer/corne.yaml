@@ -90,7 +90,7 @@ layers:
   - {t: ▽, type: trans}
   - '`'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PLAY PAUSE
   - BRIGHTNESS DEC
   - BRIGHTNESS INC
   - ⏮️
@@ -125,7 +125,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - PLAY PAUSE
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
