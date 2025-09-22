@@ -167,10 +167,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: BAS, h: LOW}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BAS, h: RAI}
   - {t: ▽, type: trans}
   NFN:
   - {t: ▽, type: trans}

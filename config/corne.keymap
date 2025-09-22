@@ -125,10 +125,10 @@
 
         mouse-nav {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &mkp MB4                                   &mkp LCLK                                 &mkp MCLK                                &mkp RCLK                                  &mkp MB5  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &mouse_move_2speed MOVE_LEFT MOVE_X(-600)  &mouse_move_2speed MOVE_Y(600) MOVE_DOWN  &mouse_move_2speed MOVE_Y(-600) MOVE_UP  &mouse_move_2speed MOVE_X(600) MOVE_RIGHT  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_LEFT                             &msc SCRL_DOWN                            &msc SCRL_UP                             &msc SCRL_RIGHT                            &trans    &trans
-                        &trans  &trans  &trans    &trans                                     &trans                                    &trans
+&trans  &trans  &trans  &trans  &trans               &trans    &mkp MB4                                   &mkp LCLK                                 &mkp MCLK                                &mkp RCLK                                  &mkp MB5  &trans
+&trans  &trans  &trans  &trans  &trans               &trans    &mouse_move_2speed MOVE_LEFT MOVE_X(-600)  &mouse_move_2speed MOVE_Y(600) MOVE_DOWN  &mouse_move_2speed MOVE_Y(-600) MOVE_UP  &mouse_move_2speed MOVE_X(600) MOVE_RIGHT  &trans    &trans
+&trans  &trans  &trans  &trans  &trans               &trans    &msc SCRL_LEFT                             &msc SCRL_DOWN                            &msc SCRL_UP                             &msc SCRL_RIGHT                            &trans    &trans
+                        &trans  &layer_hold_tap 1 0  &trans    &trans                                     &layer_hold_tap 2 0                       &trans
             >;
 
             label = "M/N";
