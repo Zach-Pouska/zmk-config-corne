@@ -149,8 +149,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '&mmv MOVE_X(-600)', h: '&mmv MOVE_LEFT'}
-  - {t: '&mmv MOVE_DOWN', h: '&mmv MOVE_Y(-600)'}
-  - {t: '&mmv MOVE_UP', h: '&mmv MOVE_Y(600)'}
+  - {t: '&mmv MOVE_DOWN', h: '&mmv MOVE_Y(600)'}
+  - {t: '&mmv MOVE_UP', h: '&mmv MOVE_Y(-600)'}
   - {t: '&mmv MOVE_RIGHT', h: '&mmv MOVE_X(600)'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
