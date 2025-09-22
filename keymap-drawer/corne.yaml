@@ -100,10 +100,10 @@ layers:
   - VOLUME UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - INSERT
   - PRINTSCREEN
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Pause Break
+  - KP NUMLOCK
   - PAGE UP
   - ←
   - ↓
