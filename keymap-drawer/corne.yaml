@@ -215,7 +215,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: BAS, h: RAI}
   - {t: ▽, type: trans}
-  GA1:
+  AHUB:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -305,6 +305,16 @@ combos:
 - p: [24, 35]
   k: CAPSLOCK
 - p: [37, 40]
-  k: {t: GA1, h: toggle}
+  k: {t: AHUB, h: toggle}
 - p: [11, 10]
   k: DELETE
+- p: [1, 0]
+  k: F1
+- p: [1, 2]
+  k: F2
+- p: [2, 3]
+  k: F3
+- p: [3, 4]
+  k: F4
+- p: [5, 4]
+  k: F5
