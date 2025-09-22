@@ -23,7 +23,7 @@
         };
 
         goto-alt-layer {
-            bindings = <&to 5>;
+            bindings = <&tog 5>;
             key-positions = <37 40>;
         };
 
