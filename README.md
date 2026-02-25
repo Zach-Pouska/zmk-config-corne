@@ -1,6 +1,6 @@
 # Zach's wireless corne configuration, based on:  MC Technology's zmk-config for corne - sofle - lily58
 
-
+I wanted my keymap layout for the corne to be as close to sensible defaults from a normal qwerty layout as possible. There's still a few changes to be made, but this has been my daily driver keyboard layout for a good few months now.
 
 
 
