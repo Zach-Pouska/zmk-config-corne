@@ -61,7 +61,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PAGE UP
   - ←
   - ↓
   - ↑
@@ -73,7 +73,7 @@ layers:
   - {t: ▽, type: trans}
   - Home
   - End
-  - '&studio_unlock'
+  - PAGE DOWN
   - '-'
   - '='
   - '['
