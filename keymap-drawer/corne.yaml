@@ -59,7 +59,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ⏯
   - {t: ▽, type: trans}
   - PAGE UP
   - ←
@@ -90,7 +90,7 @@ layers:
   - {t: ▽, type: trans}
   - '`'
   - {t: ▽, type: trans}
-  - PLAY PAUSE
+  - {t: ▽, type: trans}
   - BRIGHTNESS DEC
   - BRIGHTNESS INC
   - ⏮️
@@ -102,7 +102,7 @@ layers:
   - {t: ▽, type: trans}
   - INSERT
   - PRINTSCREEN
-  - Pause Break
+  - ⏯
   - KP NUMLOCK
   - PAGE UP
   - ←
