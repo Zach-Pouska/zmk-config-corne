@@ -110,6 +110,11 @@
             key-positions = <37 40>;
             layers = <6>;
         };
+
+        game-layer-esc {
+            bindings = <&kp ESC>;
+            key-positions = <0 1>;
+        };
     };
 
     behaviors {

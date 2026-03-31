@@ -336,3 +336,5 @@ combos:
 - p: [37, 40]
   k: {t: BAS, h: toggle}
   l: [GAME]
+- p: [0, 1]
+  k: Esc
