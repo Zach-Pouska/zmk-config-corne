@@ -35,66 +35,73 @@
         f1 {
             bindings = <&kp F1>;
             key-positions = <1 0>;
-            require-prior-idle-ms = <300>;
+            require-prior-idle-ms = <400>;
         };
 
         f2 {
             bindings = <&kp F2>;
             key-positions = <1 2>;
-            require-prior-idle-ms = <300>;
+            require-prior-idle-ms = <400>;
         };
 
         f3 {
             bindings = <&kp F3>;
             key-positions = <2 3>;
-            require-prior-idle-ms = <300>;
+            require-prior-idle-ms = <400>;
         };
 
         f4 {
             bindings = <&kp F4>;
             key-positions = <3 4>;
-            require-prior-idle-ms = <300>;
+            require-prior-idle-ms = <400>;
         };
 
         f5 {
             bindings = <&kp F5>;
             key-positions = <5 4>;
-            require-prior-idle-ms = <300>;
+            require-prior-idle-ms = <400>;
         };
 
         f6 {
             bindings = <&kp F6>;
             key-positions = <6 7>;
+            require-prior-idle-ms = <400>;
         };
 
         f7 {
             bindings = <&kp F7>;
             key-positions = <6 8>;
+            require-prior-idle-ms = <400>;
         };
 
         f8 {
             bindings = <&kp F8>;
             key-positions = <6 9>;
+            require-prior-idle-ms = <400>;
         };
 
         f9 {
             bindings = <&kp F9>;
             key-positions = <6 10>;
+            require-prior-idle-ms = <400>;
         };
 
         f12 {
             bindings = <&kp F12>;
             key-positions = <10 9>;
+            require-prior-idle-ms = <400>;
         };
 
         f11 {
             bindings = <&kp F11>;
             key-positions = <9 8>;
+            require-prior-idle-ms = <400>;
         };
 
         f10 {
             bindings = <&kp F10>;
             key-positions = <8 8 7>;
+            require-prior-idle-ms = <400>;
         };
     };
 
