@@ -306,6 +306,7 @@ combos:
   k: CAPSLOCK
 - p: [37, 40]
   k: {t: AHUB, h: toggle}
+  l: [BAS]
 - p: [11, 10]
   k: DELETE
 - p: [1, 0]
@@ -332,3 +333,6 @@ combos:
   k: F11
 - p: [8, 8, 7]
   k: F10
+- p: [37, 40]
+  k: {t: BAS, h: toggle}
+  l: [GAME]
