@@ -306,7 +306,7 @@ combos:
   k: CAPSLOCK
 - p: [37, 40]
   k: {t: AHUB, h: toggle}
-  l: [BAS]
+  l: [BAS, M/N, NFN]
 - p: [11, 10]
   k: DELETE
 - p: [1, 0]

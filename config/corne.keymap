@@ -25,7 +25,7 @@
         goto-alt-layer {
             bindings = <&tog 5>;
             key-positions = <37 40>;
-            layers = <0>;
+            layers = <0 3 4>;
         };
 
         del {
