@@ -338,3 +338,4 @@ combos:
   l: [GAME]
 - p: [0, 1]
   k: Esc
+  l: [GAME]
