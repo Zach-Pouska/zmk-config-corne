@@ -293,6 +293,7 @@ combos:
 - p: [8, 8, 7]
   k: F10
 - p: [37, 40]
-  k: {t: GAM, h: toggle}
+  k: {t: BAS, h: toggle}
+  l: [GAM]
 - p: [0, 2]
   k: Esc

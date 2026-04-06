@@ -106,8 +106,9 @@
         };
 
         exit-game-layer {
-            bindings = <&tog 6>;
+            bindings = <&tog 0>;
             key-positions = <37 40>;
+            layers = <6>;
         };
 
         game-layer-esc {
