@@ -106,9 +106,8 @@
         };
 
         exit-game-layer {
-            bindings = <&tog 0>;
+            bindings = <&tog 6>;
             key-positions = <37 40>;
-            layers = <6>;
         };
 
         game-layer-esc {
@@ -247,14 +246,13 @@
         };
 
         gaming {
+            display-name = "GAM";
             bindings = <
-&trans            &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_CONTROL  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans            &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                                  &trans  &trans  &trans    &trans  &trans  &trans
+&kp TAB                                    &kp Q  &kp W  &kp E         &kp R  &kp T        &kp Y    &kp U  &kp I         &kp O    &kp P     &kp BACKSPACE
+&tap_escape_hold_ctrl LEFT_CONTROL ESCAPE  &kp A  &kp S  &kp D         &kp F  &kp G        &kp H    &kp J  &kp K         &kp L    &kp SEMI  &kp SQT
+&kp LSHFT                                  &kp Z  &kp X  &kp C         &kp V  &kp B        &kp N    &kp M  &kp COMMA     &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+                                                         &kp LEFT_ALT  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp LEFT_WIN
             >;
-
-            label = "GAME";
         };
     };
 
